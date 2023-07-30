@@ -83,6 +83,41 @@
   height: 100vh;
   background-color:pink;
 }
+
+.center > div {
+  text-align: center;
+}
+
+/* Styling for the count span */
+.center > div > span {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* Styling for the input fields */
+.center > div > input {
+  width: 200px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Styling for the buttons */
+.center > button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.center > button:hover {
+  background-color: #0056b3;
+}
+ 
+
 .home{
   display: flex;
   flex-direction: row;
